@@ -84,7 +84,7 @@ module powerbi.extensibility.visual {
                 target,
                 "And",
                 {
-                  operator: "Contains",
+                  operator: "DoesNotContain",
                   value: text
                 }
               );
